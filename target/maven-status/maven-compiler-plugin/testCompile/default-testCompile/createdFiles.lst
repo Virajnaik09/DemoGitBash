@@ -1,0 +1,5 @@
+testNg\CreateCampaignTest.class
+testNg\CreateProductTest.class
+testNg\CreateCampaignWithProductTest.class
+testNg\CreateOrganizationTest.class
+testNg\CreateAndDeleteProduct.class

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="TestRunner1">
+  <groups>
+  <run>
+  <include name="regressionTest"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="testNg.CreateOrganizationTest"/>
+       </classes>
+      
+       </test>
+      
+      
+       <test       name="TestRunner2">
+       <classes>
+      <class name="testNg.CreateCampaignTest"/>
+    </classes>
+  <test       name="TestRunner3 ">
+    <classes>
+    <class name="testNg.CreateCampaignWithProductTest"/>
+    </classes>
+    </test>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
