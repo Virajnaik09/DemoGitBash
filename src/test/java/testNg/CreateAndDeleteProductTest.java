@@ -19,6 +19,7 @@ public class CreateAndDeleteProductTest extends BaseClass {
 
 	@Test(groups = {"smokeTest","regression"})
 	public void createAndDeleteProduct() throws Throwable 
+	//
 	{
 		Webdriver_Utility wlib = new Webdriver_Utility();
 		HomePage home = new HomePage(driver);
